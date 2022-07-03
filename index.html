@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="/PATH_TO_STATIC_FAVICON/favicon.ico" type="image/x-icon">
+<link rel="icon" href="./img/afavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="social.css">
+    <title>Apna Food</title>
+  </head>
+
+  <body class="bg-slate-200">
+    <div class="grid md:grid-cols-3 ml-0">
+      <div class="mx-2 md:col-span-1 md:flex md:justify-end flex-row-reverse">
+        <nav class="text-right ">
+          <div class="mt-4 flex justify-between items-center -mb-16 ">
+            <h1 class="shadow-md">
+              <a href="index.html" class="text-4xl font-bold text-lime-500 hover">
+              <span class="hover:text-cyan-400 ">
+                <i class="fa-solid fa-bowl-food  hover:text-red-600  transition ease-in-out duration-700"></i>
+                Apna<span class=" text-4xl text-yellow-400 bg-zinc-400 pb-2 rounded-l-full  rounded-b-full hover:bg-lime-600 hover:text-white  hover:transition hover:ease-in-out hover:duration-500 ">Food</span></span> </a>
+            </h1>
+    <div class="px-4 cursor-pointer md:hidden mb-12" id="drop">
+      <i class="fa-solid fa-bars"></i>
+     </div>
+
+
+       </div>
+          <ul class="mb-2 mt-20 text-red-300 text-xl space-y-2 hidden md:block" id="menu" <li class="">
+              <a href="#">
+                <span class="mr-3 text-xl text-lime-400 hover:shadow-inner hover:text-red-700">
+                  <i class="fa-solid fa-house-user"></i>
+                  Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="index.html">
+                <span class="mr-3 text-xl text-lime-400 font-semibold hover:shadow-inner hover:text-red-700">
+                  <i class="fa-solid fa-circle-question"></i>
+                  About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="text-xl text-lime-400 hover:shadow-inner hover:text-red-700">
+                 <i class="fa-solid fa-paper-plane"></i>
+                  Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--end of the nav tag div -->
+      <main class=" space-y-4 px-16 py-6 bg-gray-100-400 md:col-span-2 ml-0 mr-0  mt-8 md:mt-0 md:-ml-60" style="background-color:#fff468;">
+        <div class=" justify-center md:justify-end ">
+          <a href="#" class="btnt border-green-300 border-2 hover:bg-cyan-400 hover:text-white hover:shadow-xl transition ease-in-out duration-700">Login</a>
+          <a href="#" class="ml-2 btnt border-green-300 border-2 hover:bg-cyan-400 hover:text-white hover:shadow-2xl  transition ease-in-out duration-700">SignUp</a>
+        </div>
+
+
+
+
+        <header>
+          <h2 class="text-5xl text-emerald-800 mb-2 hover:text-orange-700 hover:cursor-pointer hover:shadow-orange-50">Delicious Recipes</h2>
+          <h2 class="text-2xl font-semibold text-green-600 hover:text-red-500 hover:first-letter:underline hover:shadow-xs">For Programmers</h2>
+        </header>
+        <div>
+          <h4 class="border-b-2 border-green-50 pb-2 mt-12 text-xl text-green-800 font-semibold hover:shadow-xs hover:cursor-pointer hover:text-orange-700">Latest Recipes</h4>
+          <!-- card go here  -->
+          <div class="grid lg:grid-cols-3 gap-y-8">
+            <div class="cart hover:shadow-lg">
+              <img src="./img/img-10.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2 hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block font-light"    >Delicious Cake</span>
+              </div>
+           
+            <div class="badge">
+              <span>
+                <i class="fa-solid fa-clock"></i>
+                22 Mins
+              </span>
+            </div>
+          </div>
+
+          <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img1.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2   hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500 " />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+
+            <div class="badge">
+              <span>
+                <i class="fa-solid fa-clock"></i>
+                32 Mins
+              </span>
+            </div>
+          </div>
+
+          <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img2.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+               <span>
+                <i class="fa-solid fa-clock"></i>
+                28 Mins
+              </span>
+            </div>
+          </div>
+
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img3.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+               <span>
+                <i class="fa-solid fa-clock"></i>
+                15 Mins
+              </span>
+            </div>
+          </div>
+
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img4.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+               <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+              <span>
+                <i class="fa-solid fa-clock"></i>
+                28 Mins
+              </span>
+            </div>
+          </div>
+
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img5.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+              <span>
+                <i class="fa-solid fa-clock"></i>
+                24 Mins
+              </span>
+            </div>
+          </div>
+
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img6.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                 <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+               <span>
+                <i class="fa-solid fa-clock"></i>
+                29 Mins
+              </span>
+            </div>
+          </div>
+
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img7.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                 <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+               <span>
+                <i class="fa-solid fa-clock"></i>
+                19 Mins
+              </span>
+            </div>
+          </div>
+
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img8.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+               <span>
+                <i class="fa-solid fa-clock"></i>
+                26 Mins
+              </span>
+            </div>
+          </div>
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img9.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                 <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+                 <span>
+                <i class="fa-solid fa-clock"></i>
+                22 Mins
+              </span>
+            </div>
+          </div>
+
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img10.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+              <span>
+              <i class="fa-solid fa-clock"></i>
+                35 Mins</span>
+            </div>
+          </div>
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img11.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+              <span>
+              <i class="fa-solid fa-clock"></i>
+                34 Mins</span>
+            </div>
+          </div>
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img12.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+               <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+              <span>
+              <i class="fa-solid fa-clock"></i>
+                17 Mins</span>
+            </div>
+          </div>
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img13.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                 <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+              <span>
+                <i class="fa-solid fa-clock"></i>
+                33 Mins</span>
+            </div>
+          </div>
+           <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img14.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+              <span>
+              <i class="fa-solid fa-clock"></i>
+                38 Mins
+              </span>
+            </div>
+          </div>
+
+          <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img15.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+              <span>
+              <i class="fa-solid fa-clock"></i>
+                39 Mins</span>
+            </div>
+          </div>
+          <div class="cart hover:shadow-lg">
+            <div>
+              <img src="./img/img16.jpg" alt="american-heritage-chocolate"
+                class="w-full h-32 sm:h-48 object-cover p-2  hover:-translate-y-1 hover:scale-125 hover:bg-green-200 duration-500" />
+              <div class="m-4">
+                 <span class="text-lg font-normal">Round Luscious Rasmalai Cake</span>
+                <span class="block  font-light">5 bean</span>
+              </div>
+            </div>
+            <div class="badge">
+              <span>
+              <i class="fa-solid fa-clock"></i>
+                27 Mins</span>
+            </div>
+          </div>
+
+
+</div>
+
+
+
+
+
+
+        </div>
+        <h3 class="border-b-2 border-green-50">Most popular</h3>
+        <div></div>
+        <div class="flex justify-center">
+
+          <div class="btnt hover:shadow-inner">
+            <span class=" text-xs border-2 p-2 border-red-200 hover:bg-sky-800 hover:text-white animate-spin"> 
+              load more</span></div>
+        </div>
+    </div>
+    </main>
+    </div>
+
+<div>
+<div id="social-platforms">
+<a class="btn btn-icon btn-facebook" href="https://twitter.com/Arunkumar20_20" target="_blank"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+<a class="btn btn-icon btn-twitter" href="https://twitter.com/Arunkumar20_20" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+<a class="btn btn-icon btn-googleplus" href="#"><i class="fa fa-google-plus" target="_blank"></i><span>Google+</span></a>
+<a class="btn btn-icon btn-pinterest" href="#" ><i class="fa fa-pinterest"></i><span>Pinterest</span></a>
+<a class="btn btn-icon btn-linkedin" href="https://www.linkedin.com/in/arun2020/" target="_blank"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
+</div>
+    </div>
+<script src="index.js"></script>
+  </body>
+ 
+</html>
